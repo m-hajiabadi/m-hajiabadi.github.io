@@ -27,6 +27,6 @@ This project is built using pure, vanilla web technologies—no heavy frameworks
 To run this project locally on your machine, simply clone the repository and open the `index.html` file in your browser:
 
 ```bash
-git clone [https://github.com/m-hajiabadi/m-hajiabadi.github.io.git](https://github.com/m-hajiabadi/m-hajiabadi.github.io.git)
+git clone https://github.com/m-hajiabadi/m-hajiabadi.github.io.git
 cd m-hajiabadi.github.io
 # Open index.html in your preferred browser
