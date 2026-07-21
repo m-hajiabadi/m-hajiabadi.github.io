@@ -9,10 +9,15 @@ You can view the live version of this website here:
 ## ✨ Features
 * **Modern UI/UX:** Clean, responsive, and minimalist single-page design.
 * **Custom Loading Animation:** A smooth, branded loading screen before the content reveals.
-* **Sections:** * Hero/Summary (Quick overview and social links)
+* **Sections:**
+    * Hero & Professional Summary
+    * Technical Skills
     * Work Experience
     * Education
-    * Key Projects & Honors
+    * Publications
+    * Projects
+    * Academic & Leadership Experience
+    * Awards, Volunteering & Interests
 * **Fully Responsive:** Works seamlessly on desktops, tablets, and mobile devices.
 
 ## 🛠️ Tech Stack
@@ -30,3 +35,4 @@ To run this project locally on your machine, simply clone the repository and ope
 git clone https://github.com/m-hajiabadi/m-hajiabadi.github.io.git
 cd m-hajiabadi.github.io
 # Open index.html in your preferred browser
+```
