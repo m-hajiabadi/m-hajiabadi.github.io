@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morteza Hajiabadi | AI & CV Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Morteza Hajiabadi | Medical Image Processing & AI Researcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -21,89 +21,123 @@
         </div>
         <div class="hero-text">
           <h1 class="fade-in">Hi, I'm <span>Morteza Hajiabadi</span></h1>
-          <h2 class="fade-in">AI & Computer Vision Engineer | Software Engineer</h2>
+          <h2 class="fade-in">Medical Image Processing &amp; AI Researcher | Computer Vision &amp; Software Engineer</h2>
           <p class="summary fade-in">
-            Results-driven engineer specializing in 3D medical image processing, segmentation, and deep learning optimization. Bridging advanced ML models with robust full-stack software engineering.
+            Specializing in 3D/2D medical image segmentation, landmark detection, and clinical AI pipelines—translating research into 3D Slicer tools that cut annotation time from 4–5 hours to ~2 minutes. Also experienced in PEFT, KAN-based 3D modeling, and QKD research software.
           </p>
           <div class="social-links fade-in">
             <a href="mailto:hajiabadi1377@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/m-hajiabadi" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="https://linkedin.com/in/morteza-hajiabadi/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://t.me/MortezaHajiabadi" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://github.com/m-hajiabadi" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/morteza-hajiabadi/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://t.me/MortezaHajiabadi" target="_blank" rel="noopener noreferrer" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
           </div>
         </div>
       </div>
     </header>
+
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="container nav-links">
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#academic">Academic</a>
+        <a href="#awards">Awards</a>
+      </div>
+    </nav>
 
     <main class="container">
       <section id="summary" class="section">
         <h3 class="section-title"><i class="fa-solid fa-user"></i> Professional Summary</h3>
         <div class="card">
           <p>
-            Results-driven AI &amp; Computer Vision Engineer specializing in 3D medical image processing, segmentation, and deep learning optimization. Proven track record of architecting clinical AI solutions that slash manual effort while maintaining high accuracy.
+            Medical Image Processing &amp; AI Researcher specializing in 3D/2D segmentation, landmark detection, classification, and image registration. I independently translate methods from scientific papers into end-to-end clinical AI pipelines, including 3D Slicer extensions that cut annotation time from 4–5 hours to about 2 minutes. Backed by a strong software engineering foundation, my work also spans PEFT, KAN-based 3D modeling, and QKD research software.
           </p>
           <p class="meta-row">
             <span><i class="fa-solid fa-phone"></i> +98 939 944 1800</span>
             <span><i class="fa-solid fa-location-dot"></i> Tehran Province, Iran</span>
+            <span><i class="fa-solid fa-language"></i> Persian (Native), English (Professional)</span>
           </p>
         </div>
       </section>
 
       <section id="skills" class="section">
         <h3 class="section-title"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Skills</h3>
-        <div class="card">
-          <p><strong>Languages &amp; Concepts:</strong> Python, C++, Java, OOP, Git/GitHub, REST API, Agile/Scrum, Socket Programming.</p>
-          <p><strong>CV &amp; Image Processing:</strong> Object Detection/Tracking, Segmentation, PCA, SIFT, Optical Flow, Epipolar Geometry.</p>
-          <p><strong>Libraries &amp; Tools:</strong> OpenCV, TensorFlow, PyTorch, Scikit-learn, Django, MONAI, 3D Slicer, SimpleITK, Linux.</p>
+        <div class="card skills-card">
+          <div class="skill-group">
+            <strong>Programming &amp; Core:</strong>
+            <span>Python, C++, OOP, Linux, Git/GitHub, Data Preprocessing, Statistical Model Evaluation, REST API, Django, Vue.js, Docker</span>
+          </div>
+          <div class="skill-group">
+            <strong>AI &amp; Medical Imaging:</strong>
+            <span>3D/2D Segmentation, Classification, Object Detection, Landmark Detection, Image Registration, PEFT, KAN</span>
+          </div>
+          <div class="skill-group">
+            <strong>Libraries &amp; Models:</strong>
+            <span>PyTorch, TensorFlow, MONAI, nnU-Net, OpenCV, NumPy, SciPy, scikit-image, Scikit-learn, YOLOv8</span>
+          </div>
+          <div class="skill-group">
+            <strong>Clinical &amp; Systems:</strong>
+            <span>3D Slicer Extensions, SimpleITK, NiBabel, CT/CBCT Processing, Multi-GPU &amp; Mixed-Precision Training</span>
+          </div>
         </div>
       </section>
 
       <section id="experience" class="section">
         <h3 class="section-title"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Computer Vision Engineer <span class="company">@ Applied Artificial Intelligence Lab (AAILAB)</span></h4>
+            <span class="date">Jan 2023 – Present</span>
+          </div>
+          <ul>
+            <li>Delivered 4 proprietary 3D Slicer extensions for Farin Roshan Teb, reducing clinical annotation time from 4–5 hours to about 2 minutes with 92% accuracy on multiclass CT/CBCT.</li>
+            <li>Built 3D skull/jaw segmentation, anatomical landmark detection, and 2D kidney segmentation pipelines using MONAI, nnU-Net, and PyTorch.</li>
+            <li>Optimized deep learning models for low-latency deployment on consumer-grade clinical hardware.</li>
+          </ul>
+        </div>
+
         <div class="card">
           <div class="card-header">
             <h4>Researcher <span class="company">@ RCDAT</span></h4>
-            <span class="date">Apr 2024 - Present</span>
+            <span class="date">Apr 2024 – Present</span>
           </div>
           <ul>
-            <li>Architected a long-range hardware communication system (custom UDP) and a Django/Vue.js management interface.</li>
+            <li>Designed and built control software, communication protocols, and Django/Vue.js management interfaces for a Quantum Key Distribution (QKD) system.</li>
+            <li>Developed AI research prototypes and hardware-interfacing software pipelines.</li>
           </ul>
         </div>
-        <div class="card">
-          <div class="card-header">
-            <h4>Computer Vision Engineer <span class="company">@ AAILAB</span></h4>
-            <span class="date">Jan 2023 - Present</span>
-          </div>
-          <ul>
-            <li>Delivered 3 proprietary 3D Slicer extensions for Farin Roshaan Co. and optimized models for low-latency consumer hardware.</li>
-            <li>Reduced clinical annotation time from 30 minutes to 1 minute while achieving 94% accuracy on CT/CBCT.</li>
-          </ul>
-        </div>
+
         <div class="card">
           <div class="card-header">
             <h4>AI Intern <span class="company">@ Roshan (Remote)</span></h4>
-            <span class="date">Jul 2022 - Sep 2022</span>
+            <span class="date">Jul 2022 – Sep 2022</span>
           </div>
           <ul>
-            <li>Engineered a CNN pipeline for tuberculosis classification on highly imbalanced datasets.</li>
+            <li>Engineered a CNN pipeline for Tuberculosis classification, effectively handling highly imbalanced datasets.</li>
           </ul>
         </div>
+
         <div class="card">
           <div class="card-header">
             <h4>Project Analyst &amp; International Department Lead <span class="company">@ Iracode</span></h4>
-            <span class="date">Jul 2020 - Jan 2021</span>
+            <span class="date">Jul 2020 – Jan 2021</span>
           </div>
           <ul>
             <li>Established the international department and architected a unified software roadmap for the Red Crescent Society.</li>
           </ul>
         </div>
+
         <div class="card">
           <div class="card-header">
-            <h4>Full-Stack Developer <span class="company">@ IT Core, K.N. Toosi University</span></h4>
-            <span class="date">Nov 2018 - May 2020</span>
+            <h4>Full-Stack Developer <span class="company">@ IT Core, K. N. Toosi University</span></h4>
+            <span class="date">Nov 2018 – May 2020</span>
           </div>
           <ul>
-            <li>Developed a full-stack thesis management system with Django to streamline university workflows.</li>
+            <li>Built a Django-based Thesis Management System to streamline university academic workflows.</li>
           </ul>
         </div>
       </section>
@@ -113,77 +147,102 @@
         <div class="card">
           <div class="card-header">
             <h4>MSc in Computer Engineering (Artificial Intelligence)</h4>
-            <span class="date">2022 - Present</span>
+            <span class="date">2022 – 2026</span>
           </div>
           <p><strong>Iran University of Science and Technology (IUST)</strong></p>
-          <p>Thesis: 3D Interactive segmentation of jaw images using deep learning. Supervisor: Dr. Mohsen Soryani.</p>
+          <p>Thesis: <em>3D Interactive Segmentation of Skull and Jaw Images Using Deep Learning</em> (SATRAP). Supervisor: Dr. Mohsen Soryani.</p>
         </div>
         <div class="card">
           <div class="card-header">
             <h4>BSc in Computer Engineering</h4>
-            <span class="date">2017 - 2021</span>
+            <span class="date">2017 – 2021</span>
           </div>
           <p><strong>K. N. Toosi University of Technology</strong></p>
-          <p>Project: Real-Time Traffic Light Detection in Self-Driving Cars Using Deep Learning. Supervisor: Dr. Ali Ahamdi.</p>
+          <p>Project: <em>Real-Time Traffic Light Detection in Self-Driving Cars Using Deep Learning</em>. Supervisor: Dr. Ali Ahmadi.</p>
         </div>
       </section>
 
       <section id="publications" class="section">
         <h3 class="section-title"><i class="fa-solid fa-book-open"></i> Publications</h3>
+
         <div class="card media-card publication-card">
           <img src="under_const.jpg" alt="KANGURA publication image">
           <div class="media-card-content">
-            <h4>KANGURA: Kolmogorov-Arnold Network-Based Geometry-Aware Learning...</h4>
-            <p>M. R. Shafie*, <strong>M. Hajiabadi*</strong>, et al. Submitted to <em>NAMRC 54</em>, 2026. (* Equal Contribution)</p>
+            <span class="badge">Published · 2026</span>
+            <h4>KANGURA: Kolmogorov-Arnold Network-Based Geometry-Aware Learning with Unified Representation Attention for 3D Modeling of Complex Structures</h4>
+            <p>M. R. Shafie*, <strong>M. Hajiabadi*</strong>, et al. <em>Manufacturing Letters</em>, Vol. 49, pp. 1376–1385 (2026). (* Equal Contribution)</p>
           </div>
         </div>
+
         <div class="card media-card publication-card">
           <img src="under_const.jpg" alt="MS diagnosis publication image">
           <div class="media-card-content">
-            <h4>Diagnosing MS from MRI Images: Highlights from the Second IAI Event 2024</h4>
-            <p>F. Davanian, ..., <strong>M. Hajiabadi</strong>, et al. Journal of Medical Signals &amp; Sensors (2026).</p>
-            <a href="https://journals.lww.com/jmss/fulltext/2026/01020/diagnosing_multiple_sclerosis_from_magnetic.3.aspx" target="_blank" rel="noopener noreferrer">View Publication</a>
+            <span class="badge">Published · 2026</span>
+            <h4>Diagnosing Multiple Sclerosis from Magnetic Resonance Imaging Images: Highlights from the Second Isfahan Artificial Intelligence Event 2024</h4>
+            <p>F. Davanian, ..., <strong>M. Hajiabadi</strong>, et al. <em>Journal of Medical Signals &amp; Sensors</em>, Vol. 16, p. 3 (2026).</p>
+            <a href="https://journals.lww.com/jmss/fulltext/2026/01020/diagnosing_multiple_sclerosis_from_magnetic.3.aspx" target="_blank" rel="noopener noreferrer">View Publication <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
+
         <div class="card media-card publication-card">
           <img src="under_const.jpg" alt="ChatGPT bibliometric analysis publication image">
           <div class="media-card-content">
-            <h4>Chatbots and ChatGPT: A Bibliometric Analysis...</h4>
-            <p>H. Khosravi, M. R. Shafie, <strong>M. Hajiabadi</strong>, et al. Inderscience Publishers (IEL), 2023.</p>
-            <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJDMMM.2024.138824" target="_blank" rel="noopener noreferrer">View Publication</a>
+            <span class="badge">Published · 2024</span>
+            <h4>Chatbots and ChatGPT: A Bibliometric Analysis and Systematic Review of Publications in Web of Science and Scopus Databases</h4>
+            <p>H. Khosravi, M. R. Shafie, <strong>M. Hajiabadi</strong>, et al. <em>International Journal of Data Mining, Modelling and Management (Inderscience)</em>, Vol. 16, Issue 2, pp. 113–147 (2024).</p>
+            <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJDMMM.2024.138824" target="_blank" rel="noopener noreferrer">View Publication <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
       </section>
 
       <section id="projects" class="section">
-        <h3 class="section-title"><i class="fa-solid fa-diagram-project"></i> Projects</h3>
+        <h3 class="section-title"><i class="fa-solid fa-diagram-project"></i> Key Projects</h3>
         <div class="grid">
           <div class="card media-card project-card">
-            <img src="under_const.jpg" alt="3D Medical Segmentation project image">
+            <img src="under_const.jpg" alt="Automatic 3D Skull & Jaw Segmentation project image">
             <div class="media-card-content">
-              <h4><i class="fa-solid fa-brain"></i> 3D Medical Segmentation</h4>
-              <p>Developed 3D jaw and 2D kidney segmentation pipelines with MONAI and PyTorch at AAILAB.</p>
+              <h4><i class="fa-solid fa-skull"></i> Automatic 3D Skull &amp; Jaw Segmentation</h4>
+              <p>Developed deep learning models and a clinical 3D Slicer extension for automated 3D segmentation of skull and jaw CT/CBCT scans (Farin Roshan Teb).</p>
             </div>
           </div>
+
           <div class="card media-card project-card">
-            <img src="under_const.jpg" alt="Sports Club Management project image">
+            <img src="under_const.jpg" alt="Interactive 3D Skull & Jaw Segmentation project image">
             <div class="media-card-content">
-              <h4><i class="fa-solid fa-key"></i> Sports Club Management</h4>
-              <p>Designing a system for managing sports clubs, athletes, and coaches.</p>
+              <h4><i class="fa-solid fa-wand-magic-sparkles"></i> Interactive 3D Skull &amp; Jaw Segmentation</h4>
+              <p>Engineered interactive 3D deep learning models and a 3D Slicer extension enabling fast user-guided skull and jaw segmentation (Farin Roshan Teb).</p>
             </div>
           </div>
+
+          <div class="card media-card project-card">
+            <img src="under_const.jpg" alt="3D Anatomical Landmark Detection project image">
+            <div class="media-card-content">
+              <h4><i class="fa-solid fa-crosshairs"></i> 3D Anatomical Landmark Detection</h4>
+              <p>Built a 3D Slicer extension for automated 3D anatomical landmark localization on craniomaxillofacial volumes (Farin Roshan Teb).</p>
+            </div>
+          </div>
+
+          <div class="card media-card project-card">
+            <img src="under_const.jpg" alt="Smile Landmark Detection project image">
+            <div class="media-card-content">
+              <h4><i class="fa-solid fa-face-smile"></i> Smile Landmark Detection</h4>
+              <p>Developed a 3D Slicer extension for 2D facial landmark detection across four standard views with automated clinical measurements and Persian Excel/PDF reporting.</p>
+            </div>
+          </div>
+
           <div class="card media-card project-card">
             <img src="under_const.jpg" alt="Sports Analytics Pipeline project image">
             <div class="media-card-content">
-              <h4><i class="fa-solid fa-table-tennis-paddle-ball"></i> Sports Analytics Pipeline</h4>
-              <p>Engineered a YOLOv8/OpenCV system to track squash players and compute on-court distance metrics.</p>
+              <h4><i class="fa-solid fa-table-tennis-paddle-ball"></i> Squash Analytics Prototype</h4>
+              <p>Built a YOLOv8/OpenCV computer vision prototype with court perspective transformation to track squash players and compute on-court movement metrics.</p>
             </div>
           </div>
+
           <div class="card media-card project-card">
             <img src="under_const.jpg" alt="Tuberculosis Classification project image">
             <div class="media-card-content">
               <h4><i class="fa-solid fa-lungs"></i> Tuberculosis Classification</h4>
-              <p>Built a robust CNN workflow for tuberculosis detection under strong class imbalance constraints.</p>
+              <p>Built a robust CNN workflow for tuberculosis detection under strong class imbalance constraints during internship at Roshan.</p>
             </div>
           </div>
         </div>
@@ -192,20 +251,26 @@
       <section id="academic" class="section">
         <h3 class="section-title"><i class="fa-solid fa-chalkboard-user"></i> Academic &amp; Leadership</h3>
         <div class="card">
+          <div class="card-header">
+            <h4>Head TA, Research Assistant &amp; Peer Reviewer</h4>
+            <span class="date">Dec 2022 – Present</span>
+          </div>
           <ul>
-            <li>Head TA for Deep Learning at IUST; led TA teams, managed grading, and supported MLLMs and CV courses.</li>
-            <li>Invited TA at the University of Tehran (May-Jul 2024), lecturing on CNNs and mentoring final AI projects.</li>
-            <li>Research contributor at Image Processing Lab (Dr. Soryani) and AAILAB (Dr. Shariat Panahi).</li>
+            <li><strong>IUST (2022–2026):</strong> Served in multiple Head TA roles (Deep Learning, Fundamentals of Deep Learning) and as core TA for Multimodal LLMs (MLLMs), Digital Image Processing, Computer Vision, Neural Networks, and Pattern Recognition.</li>
+            <li><strong>University of Tehran (May–Jul 2024):</strong> Invited TA at the School of Mechanical Engineering, lecturing on CNNs (classification &amp; segmentation) and mentoring final AI projects.</li>
+            <li><strong>K. N. Toosi University (2023–2024):</strong> Teaching Assistant for Fundamentals of Computer Vision across two semesters.</li>
+            <li><strong>Research Labs:</strong> Research contributor at Image Processing Lab (Dr. Mohsen Soryani) and AAILAB (Dr. Shariat Panahi).</li>
+            <li><strong>Peer Review:</strong> Manuscript reviewer for <em>Machine Learning with Applications</em> (Elsevier) and <em>DARU Journal of Pharmaceutical Sciences</em> (Springer).</li>
           </ul>
         </div>
       </section>
 
       <section id="awards" class="section">
-        <h3 class="section-title"><i class="fa-solid fa-trophy"></i> Awards, Volunteering &amp; Interests</h3>
+        <h3 class="section-title"><i class="fa-solid fa-trophy"></i> Awards, Certificates, Volunteering &amp; Interests</h3>
         <div class="card">
           <p><strong>Awards:</strong> Finalist (Top 8), PG&amp;E Energy Analytics Challenge 2025; 3rd Place, IAI Event 2024 (MS Segmentation); 3rd Place, Manufacturing AI Case Study (INFORMS QSR &amp; Virginia Tech, 2024).</p>
-          <p><strong>Certificates:</strong> 1st MedAI Summit (18h), National Meeting on AI in Medical Imaging, DeepLearning.AI (TF, CNNs, NN).</p>
-          <p><strong>Volunteering:</strong> Squash Coach (Farhan Club, 2022-Present), Content Writer (Konkur Computer, 2022-2024).</p>
+          <p><strong>Certificates:</strong> 2nd MedAI Summit (Oct 2026); 1st MedAI Summit (18h); National Meeting on AI in Medical Imaging; DeepLearning.AI (TensorFlow, CNNs, Neural Networks &amp; Deep Learning).</p>
+          <p><strong>Volunteering:</strong> Squash Coach (Farhan Club, 2022–Present); Content Writer (Konkur Computer, 2022–2024).</p>
           <p><strong>Interests:</strong> Squash, Football, Agriculture, Historical Books, Traditional Iranian Music.</p>
         </div>
       </section>
